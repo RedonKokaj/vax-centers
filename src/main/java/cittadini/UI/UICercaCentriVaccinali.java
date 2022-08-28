@@ -77,8 +77,8 @@ public class UICercaCentriVaccinali extends JFrame implements ActionListener {
      * @author Domenico Rizzo
      */
     public UICercaCentriVaccinali(){
-        ImageIcon imgLogo = new ImageIcon(Objects.requireNonNull(getClass().getResource("/res/logo.png")));
-        ImageIcon imgCerca = new ImageIcon(Objects.requireNonNull(getClass().getResource("/res/cerca.png")));
+        ImageIcon imgLogo = new ImageIcon(Objects.requireNonNull(getClass().getResource("/images/logo.png")));
+        ImageIcon imgCerca = new ImageIcon(Objects.requireNonNull(getClass().getResource("/images/cerca.png")));
         Border border = new LineBorder(new Color(251, 186, 0), 2, true);
         Font font1 = new Font("Light", Font.PLAIN, 18);
         Font font2 = new Font("Light", Font.PLAIN, 30);

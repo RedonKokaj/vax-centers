@@ -49,8 +49,8 @@ public class UIStartMenu extends JFrame implements ActionListener {
      * @author Domenico Rizzo
      */
     public UIStartMenu(){
-        ImageIcon imgLogo = new ImageIcon(Objects.requireNonNull(getClass().getResource("/res/logo.png")));
-        ImageIcon imgHome = new ImageIcon(Objects.requireNonNull(getClass().getResource("/res/home.jpg")));
+        ImageIcon imgLogo = new ImageIcon(Objects.requireNonNull(getClass().getResource("/images/logo.png")));
+        ImageIcon imgHome = new ImageIcon(Objects.requireNonNull(getClass().getResource("/images/home.jpg")));
         Border border = new LineBorder(new Color(251, 186, 0), 2, true);
 
         JLabel labelLogo = new JLabel();
