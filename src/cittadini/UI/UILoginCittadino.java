@@ -63,7 +63,7 @@ public class UILoginCittadino extends JFrame implements ActionListener {
      * @author Domenico Rizzo
      */
     public UILoginCittadino() {
-        ImageIcon imgLogo = new ImageIcon(Objects.requireNonNull(getClass().getResource("/resources/images/logo.png")));
+        ImageIcon imgLogo = new ImageIcon(Objects.requireNonNull(getClass().getResource("/res/logo.png")));
         Border border = new LineBorder(new Color(251, 186, 0), 2, true);
         Font font1 = new Font("Light", Font.PLAIN, 18);
         Font font2 = new Font("Light", Font.PLAIN, 30);

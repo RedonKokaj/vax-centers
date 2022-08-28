@@ -50,8 +50,8 @@ public class UICentriVaccinali extends JFrame implements ActionListener {
      * @author Domenico Rizzo
      */
     public UICentriVaccinali() {
-        ImageIcon imgLogo = new ImageIcon(Objects.requireNonNull(getClass().getResource("/resources/images/logo.png")));
-        ImageIcon imgCentriVaccinali = new ImageIcon(Objects.requireNonNull(getClass().getResource("/resources/images/centri.jpg")));
+        ImageIcon imgLogo = new ImageIcon(Objects.requireNonNull(getClass().getResource("/res/logo.png")));
+        ImageIcon imgCentriVaccinali = new ImageIcon(Objects.requireNonNull(getClass().getResource("/res/centri.jpg")));
         Border border = new LineBorder(new Color(251, 186, 0), 2, true);
 
         JLabel labelTesto = new JLabel();

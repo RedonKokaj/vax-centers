@@ -39,7 +39,7 @@ public class UIVisualizzaCentriVaccinali extends JFrame {
      * @author Domenico Rizzo
      */
     public UIVisualizzaCentriVaccinali(LinkedList<CentroVaccinale> centriDaVisualizzare){
-        ImageIcon imgLogo = new ImageIcon(Objects.requireNonNull(getClass().getResource("/resources/images/logo.png")));
+        ImageIcon imgLogo = new ImageIcon(Objects.requireNonNull(getClass().getResource("/res/logo.png")));
 
         this.setIconImage(imgLogo.getImage());
         this.setTitle("Risultati ricerca");

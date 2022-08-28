@@ -56,8 +56,8 @@ public class UICittadini extends JFrame implements ActionListener {
      * @author Domenico Rizzo
      */
     public UICittadini() {
-        ImageIcon imgLogo = new ImageIcon(Objects.requireNonNull(getClass().getResource("/resources/images/logo.png")));
-        ImageIcon imgCittadini = new ImageIcon(Objects.requireNonNull(getClass().getResource("/resources/images/cittadini.jpg")));
+        ImageIcon imgLogo = new ImageIcon(Objects.requireNonNull(getClass().getResource("/res/logo.png")));
+        ImageIcon imgCittadini = new ImageIcon(Objects.requireNonNull(getClass().getResource("/res/cittadini.jpg")));
         Border border = new LineBorder(new Color(251, 186, 0), 2, true);
 
         JLabel labelTesto = new JLabel();
